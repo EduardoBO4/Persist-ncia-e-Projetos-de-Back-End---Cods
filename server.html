@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Persistência e Projeto de Back-End</title>
+    <link rel="stylesheet" href="server.css">
+</head>
+<body>
+    <header>
+        <h1>Matéria Persistência e Projeto de Back-End</h1>
+        <nav>
+            <ul>
+                <li><a href="#resumo">Resumo</a></li>
+                <li><a href="#atividade">Atividade</a></li>
+                <li><a href="#tirinha">Minha Tirinha Escolhida</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section id="resumo" class="content-section">
+            <h2>Resumo</h2>
+            <div class="content-box">
+                <p>
+                    Conceitos fundamentais de persisstência de dados e desenvolvimento de aplicações back-end. 
+                </p> 
+                <p>
+                    Resumos em Docs do google: <a href="https://docs.google.com/document/d/1UzzepRvOvx6tULwCrR3y4k4E100B4_QVR1ywvyy9wT0/edit?usp=sharing"> https://docs.google.com/document/d/1UzzepRvOvx6tULwCrR3y4k4E100B4_QVR1ywvyy9wT0/edit?usp=sharing</a>
+                </p>
+                
+                <h3>Principais Tópicos:</h3>
+                <ul>
+                    <li><strong>Persistência de Dados:</strong> Mecanismos para armazenar e recuperar dados de forma permanente</li>
+                    <li><strong>Bancos de Dados:</strong> Relacionais e mySQL</li>
+                    <li><strong>Servidores Web:</strong> Configuração, protocolos HTTP/HTTPS, APIs REST</li>
+                    <li><strong>+++...</strong> </li>
+                </ul>
+            </div>
+        </section>
+
+        <section id="atividade" class="content-section">
+            <h2>Trabalho 1 - Servidor Web</h2>
+            <div class="content-box">
+                <h3>Objetivo</h3>
+                <p>Esta atividade tem como objetivo avaliar o entendimento e a prática de configuração de um servidor web e o acesso aos seus conteúdos estáticos.</p>
+                
+                <h3>Descrição</h3>
+                <p>Desenvolver uma história com, no mínimo, três telas, utilizando imagens e textos em um Motor de Jogos (Unity ou Godot) para criar um Mini Visual Novel ou Tirinha Digital.</p>
+                
+                <h3>Requisitos</h3>
+                <ul>
+                    <li>Mínimo de três telas: início, meio e fim da história</li>
+                    <li>Conteúdo carregado de um servidor externo</li>
+                    <li>URL do servidor editável via campo de entrada</li>
+                    <li>Utilização de serviços como GitHub (formato raw) ou InfinityFree</li>
+                    <li>História modificável apenas alterando arquivos no servidor</li>
+                </ul>
+                
+                <h3>Entrega</h3>
+                <ul>
+                    <li>Projeto e Build do jogo (executável)</li>
+                    <li>Nome dos integrantes</li>
+                    <li>Vídeo de apresentação do projeto</li>
+                </ul>
+            </div>
+        </section>
+
+        <section id="tirinha" class="content-section">
+            <h2>Minha Tirinha Escolhida</h2>
+            <div class="content-box">
+                <p>Mais informações :</p>
+                
+                <div class="tirinha-info">
+                    <h3>Tirinha:</h3>
+                    <p>O que é mais assutador que um fantasma ?</p>
+                    
+                    <h3>Fonte:</h3>
+                    <p>Pinterest + edição pessoal</p>
+                    
+                    <h3>Por que escolhi esta tirinha:</h3>
+                    <p>Pode ser aplicada em vários contextos</p>
+
+                    <h3>Tirinha original </h3>
+                    <img src="/imgs/original.jfif" alt="Tirinha original">
+
+                    <h3>Tirinhas adaptadas </h3>
+                    <img src="/imgs/modifc.jfif" alt="Tirinha modificada">
+                
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <p> 2025 - Persistência e Projeto de Back-End - EDUARDO BORGES DE SOUZA</p>
+    </footer>
+
+    <script>
+        // Smooth scrolling para os links da navegação
+        document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+            anchor.addEventListener('click', function (e) {
+                e.preventDefault();
+                document.querySelector(this.getAttribute('href')).scrollIntoView({
+                    behavior: 'smooth'
+                });
+            });
+        });
+    </script>
+</body>
+</html>
