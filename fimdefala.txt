@@ -1,1 +1,1 @@
-Faz uma função recursiva com passagem por ponteiro ai 
+Fizeram um commit que quebrou o site e deu uns merge problemático no repositório. Pode resolver ? 
