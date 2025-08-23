@@ -1,1 +1,0 @@
-Fizeram um commit que quebrou o site e deu uns merge problemático no repositório. Pode resolver ? 
