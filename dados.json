@@ -2,24 +2,13 @@
   "game": {
     "name": "Bolinha Catch",
     "player": {
-      "lives": 2,
+      "lives": 1,
       "score": 0
     },
     "rules": {
       "objective": "Pegar bolinhas para ganhar pontos.",
       "timeLimit": 30,
-      "pointPerBall": 10,
-      "loseLifeIfTimeRunsOut": true
-    },
-    "entities": {
-      "playerCharacter": {
-        "type": "serzinho",
-        "actions": ["mover", "pegar_bolinha"]
-      },
-      "ball": {
-        "type": "item",
-        "effect": "aumenta_pontos"
-      }
+      "pointPerBall": 10
     },
     "endConditions": {
       "gameOver": "quando as vidas chegam a 0",
