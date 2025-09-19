@@ -10,6 +10,21 @@
       "timeLimit": 30,
       "pointPerBall": 10
     },
+    "entities": {
+      "playerCharacter": {
+        "type": "serzinho"
+      },
+      "ball": {
+        "type": "item",
+        "effect": "aumenta_pontos",
+        "quantity": 50
+      },
+      "potion": {
+        "type": "item",
+        "effect": "recupera_vida",
+        "quantity": 5
+      }
+    },
     "endConditions": {
       "gameOver": "quando as vidas chegam a 0",
       "win": "quando o jogador alcança a pontuação máxima antes de perder todas as vidas"
